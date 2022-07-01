@@ -3,5 +3,5 @@
 
 outboard_repository=orand/zmk-config
 outboard_ref=master
-outboard_from=/
+outboard_from=config/boards/shields/orankey
 outboard_to=boards/shields/orankey
