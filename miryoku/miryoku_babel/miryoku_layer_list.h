@@ -6,6 +6,8 @@
 
 #if !defined (MIRYOKU_LAYER_LIST)
 
+#define HFN 10
+
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
 MIRYOKU_X(EXTRA,  "Extra") \
@@ -17,7 +19,7 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(HFN,    "Fun")
+MIRYOKU_X(HFN,    "HyperFN")
 
 #define U_BASE   0
 #define U_EXTRA  1
