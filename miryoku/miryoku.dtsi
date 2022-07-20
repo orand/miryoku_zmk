@@ -36,6 +36,16 @@ MIRYOKU_LAYER_LIST
   };
 };
 
+/ {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <U_NAV U_MOUSE>;
+            then-layer = <U_HFN>;
+        };
+    };
+};
+
 #include "miryoku_shift_functions.dtsi"
 
 #if defined (MIRYOKU_KLUDGE_MOUSEKEYSPR)
