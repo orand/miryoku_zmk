@@ -18,6 +18,6 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp LC(LG(LS(LA(F1)))), 	&kp LC(LG(LS(LA(F2)))), 	&kp LC(LG(LS(LA(F3)))), 	&kp LC(LG(LS(LA(F4)))), 	&kp LC(LG(LS(LA(F5)))),    		&kp LC(LG(LS(LA(F6)))), 	&kp LC(LG(LS(LA(F7)))), 	&kp LC(LG(LS(LA(F8)))), 	&kp LC(LG(LS(LA(F9)))), 	&kp LC(LG(LS(LA(F10)))), \
 &kp LC(LG(LS(LA(F11)))), 	&kp LC(LG(LS(LA(F12)))), 	&kp LC(LG(LS(LA(F13)))), 	&kp LC(LG(LS(LA(F14)))), 	&kp LC(LG(LS(LA(F15)))),    	&kp LC(LG(LS(LA(F16)))), 	&kp LC(LG(LS(LA(F17)))), 	&kp LC(LG(LS(LA(F18)))), 	&kp LC(LG(LS(LA(F19)))), 	&kp LC(LG(LS(LA(F20)))), \
 U_NA, 						U_NA, 						U_NA, 						U_NA, 						U_NA,    						&kp LC(LG(LS(LA(F21)))), 	&kp LC(LG(LS(LA(F22)))), 	&kp LC(LG(LS(LA(F23)))), 	&kp LC(LG(LS(LA(F24)))), 	&kp LC(LG(LA(F1))), \
-U_NP,              			U_NP,              			U_NA,              			U_NA,              			U_NA,              				&kp LC(LG(LA(F2))),        	&kp LC(LG(LA(F3))),         &kp LC(LG(LA(F4))),        	U_NP,              			U_NP
+U_NP,              			U_NP,              			U_NA,              			&trans,              			&trans,              				&kp LC(LG(LA(F2))),        	&kp LC(LG(LA(F3))),         &kp LC(LG(LA(F4))),        	U_NP,              			U_NP
 
 #define MIRYOKU_LAYERMAPPING_HFN MIRYOKU_MAPPING
