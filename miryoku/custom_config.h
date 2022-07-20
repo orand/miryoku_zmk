@@ -15,9 +15,9 @@ U_NA,              &kp RALT,          &to U_FUN,         &to U_MEDIA,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
 #define MIRYOKU_LAYER_HFN \
-&kp LC(LG(LS(LALT(F1)))), &kp LC(LG(LS(LALT(F2)))), &kp LC(LG(LS(LALT(F3)))), &kp LC(LG(LS(LALT(F4)))), &kp LC(LG(LS(LALT(F5)))),    &kp LC(LG(LS(LALT(F6)))), &kp LC(LG(LS(LALT(F7)))), &kp LC(LG(LS(LALT(F8)))), &kp LC(LG(LS(LALT(F9)))), &kp LC(LG(LS(LALT(F10)))), \
-&kp LC(LG(LS(LALT(F11)))), &kp LC(LG(LS(LALT(F12)))), &kp LC(LG(LS(LALT(F13)))), &kp LC(LG(LS(LALT(F14)))), &kp LC(LG(LS(LALT(F15)))),    &kp LC(LG(LS(LALT(F16)))), &kp LC(LG(LS(LALT(F17)))), &kp LC(LG(LS(LALT(F18)))), &kp LC(LG(LS(LALT(F19)))), &kp LC(LG(LS(LALT(F20)))), \
-U_NA, U_NA, U_NA, U_NA, U_NA,    &kp LC(LG(LS(LALT(F21)))), &kp LC(LG(LS(LALT(F22)))), &kp LC(LG(LS(LALT(F23)))), &kp LC(LG(LS(LALT(F24)))), &kp LC(LG(LALT(F1))), \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp LC(LG(LALT(F2))),        &kp LC(LG(LALT(F3))),          &kp LC(LG(LALT(F4))),        U_NP,              U_NP
+U_NA, 	U_NA, 	U_NA, 	&U_NA, 	U_NA,    	U_NA, 	U_NA, 	U_NA, 	U_NA,  U_NA, \
+U_NA, 	U_NA, 	U_NA, 	U_NA, 	U_NA,    	U_NA, 	U_NA, 	U_NA, 	U_NA, U_NA, \
+U_NA, 						U_NA, 						U_NA, 						U_NA, 						U_NA,    						U_NA, 	U_NA, 	U_NA, 	U_NA, U_NA, \
+U_NP,              			U_NP,              			U_NA,              			U_NA,              			U_NA,              				U_NA,       U_NA,       U_NA,       U_NP,                      U_NP
 
 #define MIRYOKU_LAYERMAPPING_HFN MIRYOKU_MAPPING
