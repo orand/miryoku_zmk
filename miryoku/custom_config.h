@@ -8,6 +8,18 @@
 &lt U_BUTTON Z,    &hm RALT X,        &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         &hm RALT DOT,      &lt U_BUTTON SLASH,\
 U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV SPC,     &lt U_MOUSE TAB,   &lt U_SYM RET,     &lt U_NUM BSPC,    &lt U_FUN DEL,     U_NP,              U_NP
 
+#define MIRYOKU_LAYER_NAV \
+&bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
+U_NA,              &kp RALT,          &to U_NUM,         &to U_NAV,         U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
+U_NP,              U_NP,              U_NA,              &trans,              &trans,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
+#define MIRYOKU_LAYER_MOUSE \
+&bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
+U_NA,              &kp RALT,          &to U_SYM,         &to U_MOUSE,       U_NA,              U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
+U_NP,              U_NP,              U_NA,              &trans,              &trans,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+
 #define MIRYOKU_LAYER_MEDIA \
 &bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              U_NA,              &kp F14,           &kp F15,          &u_bt_sel_4,        &u_bt_sel_5,        \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_ep_tog,         &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
