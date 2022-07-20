@@ -11,6 +11,16 @@
 #include "miryoku.h"
 
 / {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <NAV MOUSE>;
+            then-layer = <HFN>;
+        };
+    };
+};
+
+/ {
   keymap {
     compatible = "zmk,keymap";
 #define MIRYOKU_X(LAYER, STRING) \
@@ -34,16 +44,6 @@ MIRYOKU_LAYER_LIST
       bindings = <&kp>, <&kp>;
     };
   };
-};
-
-/ {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <U_NAV U_MOUSE>;
-            then-layer = <U_HFN>;
-        };
-    };
 };
 
 #include "miryoku_shift_functions.dtsi"
