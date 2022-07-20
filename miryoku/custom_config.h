@@ -14,7 +14,7 @@ U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV SPC,     &lt 
 U_NA,              &kp RALT,          &to U_FUN,         &to U_MEDIA,       U_NA,              &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
 
-#define MIRYOKU_LAYER_HYPER_FUNCTION \
+#define MIRYOKU_LAYER_HFN \
 &kp LC(LG(LS(LALT(F1)))), &kp LC(LG(LS(LALT(F2)))), &kp LC(LG(LS(LALT(F3)))), &kp LC(LG(LS(LALT(F4)))), &kp LC(LG(LS(LALT(F5)))),    &kp LC(LG(LS(LALT(F6)))), &kp LC(LG(LS(LALT(F7)))), &kp LC(LG(LS(LALT(F8)))), &kp LC(LG(LS(LALT(F9)))), &kp LC(LG(LS(LALT(F10)))), \
 &kp LC(LG(LS(LALT(F11)))), &kp LC(LG(LS(LALT(F12)))), &kp LC(LG(LS(LALT(F13)))), &kp LC(LG(LS(LALT(F14)))), &kp LC(LG(LS(LALT(F15)))),    &kp LC(LG(LS(LALT(F16)))), &kp LC(LG(LS(LALT(F17)))), &kp LC(LG(LS(LALT(F18)))), &kp LC(LG(LS(LALT(F19)))), &kp LC(LG(LS(LALT(F20)))), \
 U_NA, U_NA, U_NA, U_NA, U_NA,    &kp LC(LG(LS(LALT(F21)))), &kp LC(LG(LS(LALT(F22)))), &kp LC(LG(LS(LALT(F23)))), &kp LC(LG(LS(LALT(F24)))), &kp LC(LG(LALT(F1))), \
