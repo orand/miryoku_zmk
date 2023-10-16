@@ -9,7 +9,7 @@
 U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV SPC,     &lt U_MOUSE TAB,   &lt U_SYM RET,     &lt U_NUM BSPC,    &lt U_FUN DEL,     U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
-&bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,        U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
 U_NA,              &kp RALT,          &to U_NUM,         &to U_NAV,         U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
 U_NP,              U_NP,              U_NA,              &trans,              &trans,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
@@ -25,6 +25,13 @@ U_NP,              U_NP,              U_NA,              &trans,              &t
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_ep_tog,         &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
 U_NA,              &kp RALT,          &to U_FUN,         &to U_MEDIA,       U_NA,              &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
+
+#define MIRYOKU_LAYER_NUM \
+&kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,       \
+&kp SEMI,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp EQL,           U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp GRAVE,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp BSLH,          U_NA,              &to U_NUM,         &to U_NAV,         &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
 
 #define MIRYOKU_LAYER_HFN \
 &kp LC(LG(LS(LA(F1)))), 	&kp LC(LG(LS(LA(F2)))), 	&kp LC(LG(LS(LA(F3)))), 	&kp LC(LG(LS(LA(F4)))), 	&kp LC(LG(LS(LA(F5)))),    		&kp LC(LG(LS(LA(F6)))), 	&kp LC(LG(LS(LA(F7)))), 	&kp LC(LG(LS(LA(F8)))), 	&kp LC(LG(LS(LA(F9)))), 	&kp LC(LG(LS(LA(F10)))), \
